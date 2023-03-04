@@ -1,0 +1,143 @@
+body{
+    width:375px;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
+header{
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    padding: 16px;
+}
+
+footer{
+    padding: 16px;
+    background: #13183F;
+}
+.budget{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+header h2{
+    color: #13183F;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 28px;
+}
+header button{
+    color: white;
+    background-color:#13183F;
+    border-radius: 28px;
+    width: 140px;
+    height: 48px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 16px;
+}
+.budget h1{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 40px;
+    color: #13183F;
+}
+.budget p{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: #83869A;
+}
+.budget button{
+    width: 167px;
+    height: 56px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    color: white;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 16px;
+}
+.card{
+    background-color: #ffffff;
+    padding: 0 28px 32px 28px;
+    display: flex;
+    flex-direction: column;    
+    gap: 20px;
+    border-radius: 10px;
+    
+}
+.card-header{
+    width: 343px;
+    height:120px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    
+}
+.card-header h2{
+    color: white;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 24px;
+}
+.card img{
+    margin-top:-30px; 
+    width: 56px;
+    height: 56px;
+}
+.card-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-text-container h3{
+    color: #13183F;
+    font-size: 20px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+}
+.card-text-container p{
+    color: #83869A;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+}
+.card-text-container button{
+    width: 104px;
+    height: 28px;
+    color: #F74780;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    border: none;
+    background: #FFFFFF; ;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+footer{
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 375px;
+    height: 120px;
+}
+footer h2{
+    color: white;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 28px;
+}
+footer button{
+    width: 140px;
+    height: 48px;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+}
